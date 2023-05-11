@@ -1,0 +1,97 @@
+*{
+  margin: 0; 
+  font-family: 'IBM Plex Sans', sans-serif; 
+}
+
+header{
+    width: 100%;
+    height: 90px;
+    background: #f2f2f2;
+    display: grid;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+}
+.mainNav ul{
+    display: flex;
+    align-items: center;
+}
+.mainNav ul li{
+    margin: 10px;
+    list-style: none;
+}
+.mainNav ul li a{
+    text-decoration: none;
+    color: #44ABB3;
+}
+.logo{
+    font-size: 36px;
+    color: #FFB250;
+    font-weight: 500;
+    letter-spacing: 12px;
+}
+.btn {
+    padding: 8px 25px;
+    background: #FFB250;
+    border-radius: 10px;
+}
+.btn li a{
+    color: #fff;
+}
+.A_White{
+    color: #fff;
+}
+
+/*HERO*/
+
+.hero{
+    height: 100vh;
+    background-image: url(../img/Rectangle\ 2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.textHeroPart{
+    color: #f2f2f2;
+    text-align: center;
+}
+.textHeroPart h1{
+    font-size: 36px;
+    font-weight: 400;
+}
+.textHeroPart h2{
+    font-size: 52px;
+    margin-bottom: 15px;
+}
+.textHeroPart p{
+    font-size: 22px;
+    font-weight: 200;
+}
+.btnsHero{
+    margin-top: 20px;
+}
+.btnsHero a{
+    padding: 8px 15px;
+    text-decoration: none;
+    margin-left: 10px;
+    
+}
+
+.primaryBtn {
+    background: #44ABB3;
+    border: 1px solid #44ABB3;
+    color: #f2f2f2;
+}
+.secondaryBtn {
+    background: none;
+    color: #44ABB3;
+    border: 1px solid #44ABB3;
+}
