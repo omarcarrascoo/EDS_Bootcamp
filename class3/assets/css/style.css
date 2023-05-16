@@ -1,97 +1,191 @@
 *{
-  margin: 0; 
-  font-family: 'IBM Plex Sans', sans-serif; 
-}
-
-header{
-    width: 100%;
-    height: 90px;
-    background: #f2f2f2;
-    display: grid;
-}
-.container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 85%;
-    margin: 0 auto;
-}
-.mainNav ul{
-    display: flex;
-    align-items: center;
-}
-.mainNav ul li{
-    margin: 10px;
-    list-style: none;
-}
-.mainNav ul li a{
-    text-decoration: none;
-    color: #44ABB3;
-}
-.logo{
-    font-size: 36px;
-    color: #FFB250;
-    font-weight: 500;
-    letter-spacing: 12px;
-}
-.btn {
-    padding: 8px 25px;
-    background: #FFB250;
-    border-radius: 10px;
-}
-.btn li a{
-    color: #fff;
-}
-.A_White{
-    color: #fff;
-}
-
-/*HERO*/
-
-.hero{
-    height: 100vh;
-    background-image: url(../img/Rectangle\ 2.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.textHeroPart{
-    color: #f2f2f2;
-    text-align: center;
-}
-.textHeroPart h1{
-    font-size: 36px;
-    font-weight: 400;
-}
-.textHeroPart h2{
-    font-size: 52px;
-    margin-bottom: 15px;
-}
-.textHeroPart p{
-    font-size: 22px;
-    font-weight: 200;
-}
-.btnsHero{
-    margin-top: 20px;
-}
-.btnsHero a{
-    padding: 8px 15px;
-    text-decoration: none;
-    margin-left: 10px;
-    
-}
-
-.primaryBtn {
-    background: #44ABB3;
-    border: 1px solid #44ABB3;
-    color: #f2f2f2;
-}
-.secondaryBtn {
-    background: none;
-    color: #44ABB3;
-    border: 1px solid #44ABB3;
-}
+    margin: 0; 
+    font-family: 'IBM Plex Sans', sans-serif; 
+  }
+  
+  header{
+      width: 100%;
+      height: 90px;
+      background: #f2f2f2;
+      display: grid;
+      position:fixed;
+  }
+  body{
+      background: #f2f2f2;
+  }
+  .container{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 85%;
+      margin: 0 auto;
+  }
+  .mainNav ul{
+      display: flex;
+      align-items: center;
+  }
+  .mainNav ul li{
+      margin: 10px;
+      list-style: none;
+  }
+  .mainNav ul li a{
+      text-decoration: none;
+      color: #44ABB3;
+  }
+  .logo{
+      font-size: 36px;
+      color: #FFB250;
+      font-weight: 500;
+      letter-spacing: 12px;
+  }
+  .btn {
+      padding: 8px 25px;
+      background: #FFB250;
+      border-radius: 10px;
+  }
+  .btn{
+      text-decoration: none;
+  }
+  /* .btn li a{
+      color: #fff;
+  } */
+  .A_White{
+      color: #fff !important;
+  }
+  /*HERO*/
+  
+  .hero{
+      height: 100vh;
+      background-image: url(../img/Rectangle\ 2.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  .blueText{
+      color: #44ABB3;
+  }
+  .textHeroPart{
+      color: #f2f2f2;
+      text-align: center;
+  }
+  .textHeroPart h1{
+      font-size: 36px;
+      font-weight: 400;
+  }
+  .textHeroPart h2{
+      font-size: 52px;
+      margin-bottom: 15px;
+  }
+  .textHeroPart p{
+      font-size: 22px;
+      font-weight: 200;
+  }
+  .btnsHero{
+      margin-top: 20px;
+  }
+  .btnsHero a{
+      padding: 8px 15px;
+      text-decoration: none;
+      margin-left: 10px;
+      
+  }
+  
+  .primaryBtn {
+      background: #44ABB3;
+      border: 1px solid #44ABB3;
+      color: #f2f2f2;
+  }
+  .secondaryBtn {
+      background: none;
+      color: #44ABB3;
+      border: 1px solid #44ABB3;
+  }
+  
+  
+  
+  /*ABOUT PAGE*/
+  .heroAbout{
+      background-image: url(../img/bg2.png);
+  }
+  .orageSubtitle{
+      color: #FFB250;
+      font-size: 42px;
+  }
+  .aboutUs{
+      margin: 40px 0;
+  }
+  .aboutUs_img{
+      width: 50%;
+  }
+  .aboutUs_img img{
+      width: 100%;
+  }
+  .aboutUs_text{
+      width: 48%;
+  }
+  .mainParr{
+      font-size: 20px;
+      text-align: justify;
+      color: #2c2c2c;
+      letter-spacing: .5px;
+      line-height: 30px;
+      font-weight: 200;
+  }
+  
+  
+  .serviceAbout{
+      width: 100%;
+      background-color: #44ABB3;
+      padding: 100px 0;
+  }
+  .subTitleWhite{
+      margin-bottom: 50px;
+  }
+  .subTitleWhite h2{
+      text-align: center;
+      color: #f2f2f2;
+      font-size: 56px;
+  
+  }
+  .serviceAboutBox{
+      width: 20%;
+  }
+  .serviceAboutBoxImg{
+      width: 100%;
+      margin-bottom: 10px;
+  }
+  .serviceAboutBoxImg img{
+      width: 100%;
+  }
+  .serviceAboutBoxText h3{
+      color: #FFB250;
+      font-size: 22px;
+  }
+  .callToActionService{
+      text-align: center;
+      margin-top: 50px;
+  }
+  .bigBtn{
+      padding: 20px 40px;
+      font-size: 24px;
+  }
+  
+  /*FIXED BTN*/
+  .fixedBtn{
+      width: 80px;
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      margin: 50px;
+  }
+  .fixedBtn a{
+      color: #A3FDB2;
+      text-decoration: none;
+  }
+  .fixedBtn a img{
+      width: 100%;
+  }
